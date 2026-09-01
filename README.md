@@ -1,6 +1,7 @@
-# Tauri + SolidJS + UnoCSS 项目模板
+# {{ repo_name }}
 
-基于 Tauri v2 的桌面应用模板，使用 SolidJS 作为前端框架，UnoCSS 作为原子化 CSS 引擎，Vite 作为构建工具。
+## 项目描述
+{{ description }}
 
 ## 技术栈
 
