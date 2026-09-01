@@ -20,7 +20,9 @@
 
 ## 快速开始
 
-克隆项目并安装依赖：
+使用此模板创建新仓库后克隆到本地并安装依赖：
+
+![img.png](img.png)
 
 ```shell
 git clone <your-repo-url>
@@ -39,6 +41,19 @@ pnpm tauri dev
 ```shell
 pnpm tauri build
 ```
+
+## 克隆后须知
+
+使用本模板创建项目后，请修改以下文件：
+
+| 文件                        | 修改内容                                                              |
+|-----------------------------|-----------------------------------------------------------------------|
+| `package.json`              | `name`（npm 包名）、`description`                                     |
+| `src-tauri/Cargo.toml`      | `name`（crate 名）、`description`、`lib.name`                         |
+| `src-tauri/tauri.conf.json` | `productName`（应用名）、`identifier`（反向域名标识符）、窗口 `title` |
+| `README.md`                 | 本文件，替换为你的项目说明                                            |
+| `LICENSE`                   | 如需更换协议，见下方 License 章节                                     |
+| `src-tauri/icons/`          | 替换为你的应用图标（多分辨率）                                        |
 
 ## 常用命令
 
